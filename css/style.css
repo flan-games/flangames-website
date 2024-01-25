@@ -1,5 +1,9 @@
 body {
-	font-family: 'Dosis', sans-serif;
+    font-family: 'pure_joyregular';
+    src: url('/fonts/pure_joy-webfont.woff2') format('woff2'),
+    url('/fonts/pure_joy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     color: #404142;
     font-size: 16px;
 	letter-spacing: 0.8px;
@@ -346,13 +350,30 @@ ul.footer-menu li a:hover {
 }
 
 .text-flan{
-    font-family: 'Pure Joy', cursive;
-    src: url(/fonts/Pure\ Joy.ttf);
+    font-family: 'pure_joyregular';
+    src: url('/fonts/pure_joy-webfont.woff2') format('woff2'),
+        url('/fonts/pure_joy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 }
 
 .text-flan-subtitle{
-    font-family: 'Pure Joy', cursive;
     font-size: medium;
     color: #f5bc1f;
-    src: url(/fonts/Pure\ Joy.ttf);
+    font-family: 'pure_joyregular';
+    src: url('/fonts/pure_joy-webfont.woff2') format('woff2'),
+         url('/fonts/pure_joy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pure_joyregular';
+    src: url('/fonts/pure_joy-webfont.woff2') format('woff2'),
+         url('/fonts/pure_joy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
