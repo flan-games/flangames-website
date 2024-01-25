@@ -347,10 +347,12 @@ ul.footer-menu li a:hover {
 
 .text-flan{
     font-family: 'Pure Joy', cursive;
+    src: url(/fonts/Pure\ Joy.ttf);
 }
 
 .text-flan-subtitle{
     font-family: 'Pure Joy', cursive;
     font-size: medium;
     color: #f5bc1f;
+    src: url(/fonts/Pure\ Joy.ttf);
 }
