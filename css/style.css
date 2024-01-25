@@ -377,3 +377,24 @@ ul.footer-menu li a:hover {
     font-style: normal;
 
 }
+
+
+  .btn-custom-background {
+    background:url(/img/flan-games-arrow.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+  }
+  
+
+  /* Ajusta los estilos según sea necesario para el tamaño y posición del texto en el botón */
+  .btn-custom-background:hover {
+    /* Estilos para cuando el mouse está sobre el botón, si es necesario */
+  }
+
+  .btn-custom-background:active {
+    background:url(/img/flan-games-arrow.png) no-repeat;
+  }
+  
+  
