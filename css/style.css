@@ -4,7 +4,8 @@ body {
     url('/fonts/pure_joy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    color: #404142;
+    /* color: #404142; Original color */
+    background: #016cc7;
     font-size: 16px;
 	letter-spacing: 0.8px;
 }
@@ -394,6 +395,14 @@ ul.footer-menu li a:hover {
     font-style: normal;
 }
 
+.text-flan-white {
+    font-size:normal;
+    color: #ffffff;
+    font-family: 'pure_joyregular', sans-serif; /* Agregué 'sans-serif' como una fuente de respaldo */
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'pure_joyregular';
@@ -547,3 +556,25 @@ ul.footer-menu li a:hover {
     color: #404142;
     font-weight: bold;
   }
+
+     /* Estilo para las imágenes flotantes */
+     .floating-image {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+      }
+  
+      .floating-image-left {
+        position: absolute;
+        height: 200px;
+        z-index: 1111111111111;
+        left: 100px;
+      }
+      
+  
+      .floating-image-right {
+        position: absolute;
+        height: 200px;
+        z-index: 1111111111111;
+        right: 100px;
+      }
