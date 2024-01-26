@@ -439,3 +439,50 @@ ul.footer-menu li a:hover {
     margin-bottom: 15px;
   }
   
+/* Estilo para el enlace con la imagen */
+.page-scroll {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Estilo para el contenedor de la imagen */
+  .img-container {
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  /* Estilo base para la imagen dentro del enlace */
+  .page-scroll img {
+    transition: transform 0.3s ease-out, filter 0.3s ease-out;
+  }
+  
+  /* Efecto de expansión suave al hacer hover sobre la imagen */
+  .expansion-hover:hover img {
+    transform: scale(1.03); /* Escala al 110% del tamaño original */
+  }
+  
+ /* Efecto de brillo y color amarillo (#FFA600) al hacer hover sobre la imagen */
+.brightness-hover:hover img {
+    filter: brightness(1.03) hue-rotate(10deg); /* Ajusta el valor de hue-rotate según sea necesario */
+  }
+  
+
+  /* Efecto bouncy al hacer hover sobre el botón */
+  .bounce-hover:hover {
+    animation: bounce 1s ease;
+  }
+  
+  /* Definición de la animación de rebote */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-1.05px);
+    }
+    60% {
+      transform: translateY(-1.05px);
+    }
+  }
+  
