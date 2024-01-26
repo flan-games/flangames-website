@@ -357,17 +357,43 @@ ul.footer-menu li a:hover {
     font-style: normal;
 }
 
-}
+/* Estilo base para los elementos a animar */
+.text-slide {
+    opacity: 0; /* Hacemos los elementos inicialmente transparentes */
+    transform: translateY(-20px); /* Desplazamos los elementos hacia arriba */
+    transition: opacity 0.5s ease-in, transform 1.5s ease-in; /* Agregamos transiciones suaves */
+  }
 
-.text-flan-subtitle{
-    font-size: medium;
+  .text-slide-bottom {
+    opacity: 0; /* Hacemos los elementos inicialmente transparentes */
+    transform: translateY(-20px); /* Desplazamos los elementos hacia arriba */
+    transition: opacity 0.5s ease-out, transform 1.5s ease-in; /* Agregamos transiciones suaves */
+  }
+
+
+  /* Clase para activar la animación cuando los elementos están en el área visible */
+.text-visible {
+    opacity: 1; /* Hacemos los elementos visibles */
+    transform: translateY(0); /* Volvemos a la posición original */
+  }
+
+
+.text-flan-subtitle {
+    font-size:x-large;
     color: #f5bc1f;
-    font-family: 'pure_joyregular';
-    src: url('/fonts/pure_joy-webfont.woff2') format('woff2'),
-         url('/fonts/pure_joy-webfont.woff') format('woff');
+    font-family: 'pure_joyregular', sans-serif; /* Agregué 'sans-serif' como una fuente de respaldo */
     font-weight: normal;
     font-style: normal;
 }
+
+.text-flan-yellow {
+    font-size:normal;
+    color: #f5bc1f;
+    font-family: 'pure_joyregular', sans-serif; /* Agregué 'sans-serif' como una fuente de respaldo */
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'pure_joyregular';
@@ -397,4 +423,19 @@ ul.footer-menu li a:hover {
     background:url(/img/flan-games-arrow.png) no-repeat;
   }
   
+  /* Estilo para la imagen de About Us */
+.about-us-image {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio adicional por debajo de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+    src: url(/img/flan-games-aboutus.png);
+  }
+  
+  /* Estilo para el texto de About Us */
+  .about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
   
